@@ -15,7 +15,7 @@ This project demonstrates a complete ETL workflow:
 
 ## Architecture
 
-
+```text
 Ember Energy API
         ↓
     Extract
@@ -31,7 +31,7 @@ Ember Energy API
       Load
         ↓
    SQL Server
-
+```
 
 
 ## Technologies
