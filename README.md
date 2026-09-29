@@ -1,10 +1,21 @@
-
 # ⚡ Electricity Data Pipeline
 
 A simple Data Engineering pipeline that collects monthly electricity demand data for Egypt, transforms it using Python and Pandas, validates the data, and loads it into Microsoft SQL Server.
 
+## 🎯 Project Overview
+
+This project demonstrates a complete ETL workflow:
+
+- Extract data from an external API
+- Transform and clean the raw data
+- Validate data quality
+- Load processed data into SQL Server
+- Prevent duplicate records
+- Log pipeline execution and handle errors
+
 ## Architecture
 
+```text
 Ember Energy API
         ↓
     Extract
@@ -20,6 +31,8 @@ Ember Energy API
       Load
         ↓
    SQL Server
+```
+
 
 ## Technologies
 
